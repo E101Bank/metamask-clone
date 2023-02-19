@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.metametrics-opt-in {
+    position: relative;
+    width: 100%;
+}
+
+.main-container-wrapper {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 auto;
+    min-height: 0;
+    width: 100%;
+}
+
+.first-time-flow {
+    width: 100%;
+    background-color: var(--color-background-default);
+    display: flex;
+    justify-content: center;
+}
+
+.metametrics-opt-in__main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 26.26%;
+    margin-right: 28%;
+    color: var(--color-text-default);
+}
+
+.metametrics-opt-in__main .app-header__logo-container {
+    margin-top: 3%;
+}
+
+.app-header__logo-container {
+    display: flex;
+   
+    flex-direction: row;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-right: 1rem;
+}
+
+.metametrics-opt-in__body-graphic {
+    margin-top: 25px;
+}
+
+.metametrics-opt-in__title {
+    font-size: 2.9rem;
+    font-family: "Euclid Circular B", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    margin-top: 20px;
+}
+
+.metametrics-opt-in__body {
+    position: relative;
+    display: flex;
+    max-width: 730px;
+    flex-direction: column;
+}
+
+.metametrics-opt-in__description {
+    font-size: 1.3rem;
+    font-family: "Euclid Circular B", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 12px;
+}
+
+.metametrics-opt-in__committments {
+    display: flex;
+    flex-direction: column;
+}
+
+.metametrics-opt-in__row {
+    display: flex;
+    font-family: "Euclid Circular B", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+
+.metametrics-opt-in__body {
+    position: relative;
+    display: flex;
+    max-width: 730px;
+    flex-direction: column;
+}
+
+.metametrics-opt-in__bold {
+    font-weight: bold;
+}
+
+.metametrics-opt-in__footer {
+    margin-top: 26px;
+}
+
+.metametrics-opt-in__footer .page-container__footer {
+    border-top: none;
+    max-width: 535px;
+    margin-bottom: 15px;
+}
+
+.metametrics-opt-in__footer .page-container__footer {
+    border-top: none;
+    max-width: 535px;
+    margin-bottom: 15px;
+}
+
+.page-container__footer footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 16px;
+    flex: 0 0 auto;
+}
+
+.metametrics-opt-in__footer .page-container__footer button {
+    height: 44px;
+    min-height: 44px;
+    margin-right: 16px;
+}
+
+.btn--rounded.btn-secondary {
+    border: 1px solid var(--color-primary-default);
+}
+
+.button {
+    font-size: 0.875rem;
+    font-family: "Euclid Circular B", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    font-style: normal;
+    padding: 0.75rem 1rem;
+    display: flex;
+    background: #1807848a;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+}
+
+.metametrics-opt-in__footer .page-container__footer button {
+    height: 44px;
+    min-height: 44px;
+    border-radius: 20px;
+    margin-right: 16px;
+}
+
+.metametrics-opt-in__footer .page-container__footer {
+    border-top: none;
+    max-width: 535px;
+    margin-bottom: 15px;
+}
+
+.metametrics-opt-in__bottom-text {
+    margin-top: 15px;
+    color: var(--color-text-alternative);
+}
+
+.metametrics-opt-in a {
+    color: var(--color-primary-default);
+    text-decoration: none;
+}
+
+.btn--rounded {
+    border-radius: 100px;
+    will-change: box-shadow;
+    transition: box-shadow cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms;
+}
+
+.btn-primary {
+    color: var(--color-primary-inverse);
+    border: 1px solid var(--color-primary-default);
+    background-color: var(--color-primary-default);
+}
+
+.btn--rounded.btn-primary {
+    background-color: var(--color-primary-default);
+}
+
+.btn--rounded.btn-secondary {
+    border: 1px solid var(--color-primary-default);
+}
